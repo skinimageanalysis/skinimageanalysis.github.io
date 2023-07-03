@@ -1,1 +1,88 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHTQNGE47Q"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CHTQNGE47Q');
+    </script>
+
+    <title>Back to the Basics - Supplementary Material</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .bullet-items {
+            margin-top: 20px;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .bullet-items li {
+            margin-bottom: 8px;
+        }
+
+        .bullet-items li a {
+            text-decoration: none;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Back to the Basics: Investigating Data Duplication, Leakage, and Labelling Accuracy in Dermatology Image Datasets</h1>
+        <h1>Supplementary Material</h1>
+
+        <div class="section">
+            <h2 class="section-title">DermaMNIST Analysis</h2>
+            <ul class="bullet-items">
+                <li><a href="https://drive.google.com/drive/folders/1Uw3jOD5O1BAajQbjfjOjRw5ihP2Y8Dae?usp=drive_link"><b>DermaMNIST-C Dataset</b></a>: <tt>.npz</tt> file of the dataset and MD5 sum.</li>
+                <li><a href="https://drive.google.com/drive/folders/12UtdpD57MZlbF6yKQh28CXkZm9BScXii?usp=drive_link"><b>DermaMNIST-E Dataset</b></a>: <tt>.npz</tt> file of the dataset and MD5 sum.</li>
+                <!-- <li><a href="page3.html">Bullet 3</a></li>
+                <li><a href="page4.html">Bullet 4</a></li>
+                <li><a href="page5.html">Bullet 5</a></li>
+                <li><a href="page6.html">Bullet 6</a></li> -->
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Fitzpatrick17k Analysis</h2>
+            <ul class="bullet-items">
+                <li><a href="Fitzpatrick17k/duplicates.html"><b>Duplicates Report</b></a>: <tt>fastdup</tt> generated HTML table listing duplicate image pairs with similarity >= 0.95.</li>
+                <li><a href="Fitzpatrick17k/components.html"><b>Image Clusters Report</b></a>: <tt>fastdup</tt> generated HTML table listing duplicate image clusters with intra-image similarity >= 0.90.</li>
+                <li><a href="Fitzpatrick17k/outliers.html"><b>Outliers Report</b></a>: <tt>fastdup</tt> generated HTML table listing potential outlier images.</li>
+                <li><a href="Fitzpatrick17k/metadata_updated.htm"><b>Dataset Metadata (HTML)</b></a>: Updated Fitzpatrick17k metadata with new filenames as an interactive HTML table. See Section <b>C.1</b> of the Supplementary Material PDF for details.</li>
+                <li><a href="Fitzpatrick17k/metadata_updated.csv"><b>Dataset Metadata (Raw CSV)</b></a>: Updated Fitzpatrick17k metadata with new filenames as a CSV file.</li>
+                <li><a href="Fitzpatrick17k/diag_abbrv.htm"><b>Diagnosis Label Abbreviation Mapping</b></a>: Diagnosis abbreviations for all 114 disease classes in Fitzpatrick17k. See Section <b>C.1</b> of the Supplementary Material PDF for details.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
